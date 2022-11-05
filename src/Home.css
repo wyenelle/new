@@ -1,0 +1,16 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.linkss{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    border: 2px solid white;
+    padding: 7px;
+}

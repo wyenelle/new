@@ -1,0 +1,14 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    height: 40px;
+    padding: 7px;
+}
+.nav-link{
+    font-weight: 800;
+
+    text-decoration: none;
+    text-align: center;
+}

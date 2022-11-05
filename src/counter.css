@@ -1,0 +1,60 @@
+.counter-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.counter{
+    height: auto;
+    border: 1px solid lightgray;
+    box-shadow: 0 0 5px 3px lightgray;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.value{
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-align: end;
+}
+.button{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-top:1px solid black;
+    height: auto;
+    border-radius:10px;
+
+}
+.button button{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    height: 60px;
+    background-color: black;
+    text-transform: capitalize;
+    color: white;
+}
+.button  :nth-child(odd){
+    background-color: rgb(249, 128, 6);
+    
+}
+.link{
+    border: 2px solid lightgray;
+    margin-top: 1em;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+
+}
+.link .links {
+    color: white;
+    text-decoration: none;
+}
