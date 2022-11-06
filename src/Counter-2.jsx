@@ -17,7 +17,7 @@ const Counter_2 = () => {
           <button onClick={increment}> increment</button>
           <button onClick={decrement}> decrement</button>
           <button onClick={reset}> reset</button>
-          <button onClick={setValue}> set value </button>
+          <input type='number' name='setValue' onChange={(e) => setValue(e)} />
         </div>
 
         <div className="link">

@@ -48,10 +48,10 @@ const reset = () =>{
         type : 'RESET'
     })
 }
-const setValue = () => {
+const setValue = (e) => {
     dispatch({
         type : 'SET VALUE',
-        payload : 10
+        payload : e.target.value
     })
 }
 

@@ -21,7 +21,7 @@ function App() {
           <Boundary>
           <Test />
           </Boundary>} />
-        <Route path="/*" element={<NotFoundPage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </div>
   );

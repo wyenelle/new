@@ -16,8 +16,10 @@ function useNormalCounter() {
     setCount(0)
   }
 
-  const setValue = () => {
-    setCount(10)
+  const setValue = (e) => {
+    const val = e.target.value
+    setCount(val)
+
   }
 
   return[count,increment,decrement,reset,setValue]
