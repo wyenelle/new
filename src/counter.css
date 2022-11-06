@@ -16,6 +16,11 @@
     display: flex;
     flex-direction: column;
 }
+@media screen and (min-width : 650px){
+    .counter{
+        width: 50%;
+    }
+}
 .value{
     border: 1px solid black;
     border-radius: 5px;

@@ -1,16 +1,16 @@
-import React from "react";
-import useCounter from "./useCounter";
-import { Link } from "react-router-dom";
-import "./counter.css";
+import React from 'react'
+import useNormalCounter from './NormalCustom'
+import {Link} from 'react-router-dom'
 
-function Counter() {
-  const [state, increment, decrement, reset, setValue] = useCounter();
 
+const Counter_2 = () => {
+    const [count,increment,decrement,reset,setValue] = useNormalCounter()
   return (
-    <div className="counter-wrapper">
+    <div className='counter_2'>
+         <div className="counter-wrapper">
       <div className="counter">
         <div className="value">
-          <h1> {state.count} </h1>
+          <h1> {count} </h1>
         </div>
 
         <div className="button">
@@ -22,13 +22,13 @@ function Counter() {
 
         <div className="link">
           <Link className="links" to="/">
-            {" "}
             Back to Home
           </Link>
         </div>
       </div>
     </div>
-  );
+    </div>
+  )
 }
 
-export default Counter;
+export default Counter_2

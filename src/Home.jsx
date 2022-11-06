@@ -9,6 +9,7 @@ const Home = () => {
         <h3> This is my Counter App</h3>
       
     <Link className='linkss' to='/counter'> Use Counter</Link>
+    <Link className='linkss' to='/counter-2'> Use Counter - 2 </Link>
   
     </div>
   )

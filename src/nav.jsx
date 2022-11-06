@@ -7,7 +7,9 @@ const Nav = () => {
     <div>
         <nav>
             <Link className='nav-link' to='/'> Home </Link>
-            <Link className='nav-link' to='/counter'> View Counter</Link>
+            <Link className='nav-link' to='/counter'> View Counter 1</Link>
+            <Link className='nav-link' to='/counter-2'> View Counter 2</Link>
+
             <Link className='nav-link' to='/error'>Test Error Boundary</Link>
         </nav>
     </div>
